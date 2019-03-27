@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>TNRD</title>
+	
+
+	
+	<!--fonts -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aleo:300,400,700" rel="stylesheet">
+	
+	<!--scripts -->	
+    <script type="text/javascript" src="assets/scripts/client/http.js"></script>
+    <script type="text/javascript" src="assets/scripts/client/nav.js"></script>
+    
+	
+	<!--links -->
+	<link type="text/css" rel="stylesheet" href="assets/styles/default.css">
+	<link type="text/css" rel="stylesheet" href="assets/styles/header.css">
+	<link type="text/css" rel="stylesheet" href="assets/styles/default.css">
+    <link type="text/css" rel="stylesheet" href="assets/styles/index.css">
+    <link type="text/css" rel="stylesheet" href="assets/styles/nav.css">
+    <link type="text/css" rel="stylesheet" href="assets/styles/header-row.css">
+    <link type="text/css" rel="stylesheet" href="assets/styles/footer.css">
+    <link type="text/css" rel="stylesheet" href="assets/styles/form.css">
+    
+    <script type="text/javascript">
+    
+		
+		window.onload = function(){
+			
+			//http.get(http,["http://beta.tnrd.ca:3001/"],function(p){console.log(p)});
+            
+            
+           // http.set(http,["http://beta.tnrd.ca:3001/mailchimp/signup/",{item : {email : email ,status  :"subscribed"}}],function(p){console.log(p)});
+			
+		}
+        
+		
+	</script>
+	
+</head>
+
+<body>
+	
+<!-- header  -->
+  
+	<div class="header">
+		<div class="c"></div>
+		<div class="header-outside"></div>	
+		<div class="header-inside">
+			<div class="header-logo">
+				<div class="header-logo-item"></div>
+			</div>
+			<div class="header-menu">
+                <!--about-->
+				<div class="header-menu-item">
+                 
+                    <div class="header-menu-item-label">About</div><br>
+                    <div class="header-menu-item-spacer"></div><br>
+                  
+				</div><!--End about-->
+                <!--Boards-->
+				<div class="header-menu-item">
+					<div class="header-menu-item-label">Boards</div><br>
+                    <div class="header-menu-item-spacer"></div><br>
+                   
+				</div><!--end Boards-->
+                
+                <!--Region-->
+				<div class="header-menu-item">
+					<div class="header-menu-item-label">Region</div><br>
+                    <div class="header-menu-item-spacer"></div><br>
+					
+                </div><!--end Region-->
+                
+                <!--Services-->
+				<div class="header-menu-item">
+					<div class="header-menu-item-label">Services</div><br>
+                    <div class="header-menu-item-spacer"></div><br>
+					
+				</div><!--end services-->
+                <div class="header-menu-item-dash"></div>
+                
+                <div class="header-menu-item">
+					<div class="header-menu-item-label">Emergencies</div><br>
+                </div>
+			</div>
+            
+            
+			<div class="header-search">
+                    
+                <div class="header-menu-icon-wrapper">
+                    <div class="header-menu-icon material-icons">more_vert</div>    
+                </div>
+                <div class="header-menu-icon-wrapper">
+                    <div class="header-menu-icon material-icons">phone</div>    
+                </div>
+                <div class="header-menu-icon-wrapper">
+                    <div class="header-menu-icon material-icons">search</div>    
+                </div>
+                
+			</div>
+		</div>	
+		<div class="header-outside">
+			
+		</div>	
+       
+	
+	
+	
+    </div>	
+
+
+
+	
+<!--section heading-->
+	<div class="section-heading"></div>
+    
+    
+	
+    <div class="form-wrapper">
+        <div class="form-heading">TNRD Newsletter Signup</div><br>
+        <div class="form-subheading">Thank you for subscribing to receive information from the TNRD
+        </div><br>
+        <form id="form">
+            <div class="text">Name: </div>
+            <input id="name" class="footer-section-inside-text" type="text" placeholder="Bob" onkeypress="return (event.charCode > 64 && 
+	        event.charCode < 91) || (event.charCode > 96 && event.charCode < 123 || event.keyCode == 32)"><br>
+            <div class="text">Email: </div>
+            <input id="email" class="footer-section-inside-text" type="text" placeholder="boboscar@gmail.com" required="true"><br>
+
+            <div class="text-small">Customize what you'll receive :</div><br>
+
+            <div class="text">Board Highlights </div>
+            <div class="form-checkbox-wrapper">
+                <input id="board" class="form-checkbox" type="checkbox">
+            </div><br>
+
+
+
+            <div class="text">Press Releases</div>
+            <div class="form-checkbox-wrapper">
+                <input id="press" class="form-checkbox" type="checkbox">
+            </div><br>
+            <div class="text">Emergency Updates</div>
+            <div class="form-checkbox-wrapper">
+                <input id="emergency" class="form-checkbox" type="checkbox">
+            </div><br>
+
+            <div class="text-small"></div><br>
+
+            <div id="submit" class="footer-section-inside-button" onclick="window.nav.set.submit();">Subscribe</div>
+        </form>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	
+	
+</body>
+</html>
+

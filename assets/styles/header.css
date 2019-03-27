@@ -1,0 +1,88 @@
+
+/*header*/
+.header{width:100%;border-bottom: 1px solid rgb(255,255,255)}
+
+/*header columns*/
+.header-outside{width: 13%}
+.header-inside{width: 74%}
+
+/*header sections*/
+.header-logo{width: 12%; text-align: left}
+.header-menu{width: 76%;text-align: center}
+.header-emergency{}
+.header-search{width: 12%;text-align:right}
+
+/*header section logo*/
+.header-logo-item{
+	width: 108px;
+	height: 72px;
+	background-position: center;
+	background-image: url(../images/logo.gif) ;
+	background-size: contain; 
+	background-repeat: no-repeat;
+	opacity: .86;
+}
+
+/*header section menu*/
+.header-menu-item{
+	padding : 0px 27px;
+	cursor: pointer;
+}
+.header-menu-item-spacer{
+    height: 3px;
+    width: 0%;
+    background-color: rgba(0,128,121,1.00);
+    transition: width .1s;
+}
+.header-menu-item:hover .header-menu-item-spacer{width:100%;}
+
+.header-menu-item:hover .nav{display: inline-block; animation: style .1s;}
+
+@keyframes style {
+  100%   {transform: translate(-50%,0px);}
+  0% {transform: translate(-50%,70px);}
+}
+.header-menu-item-dash{height: 21px; width: 1px; background-color: rgba(0,0,0,.3);margin: 0px 12px;}
+.header-menu-item:hover .nav-services{display: inline-block;animation: style .1s;}
+.header-menu-item-label{
+	padding:72px 0px;
+	font-size:18px; 
+	font-weight: 400;
+	letter-spacing: .4px;
+    
+}
+/* see nav.css*/
+
+.header-menu-icon{font-size: 30px; vertical-align: bottom;border-radius: 3px;color: rgba(0,0,0,.5); }
+.header-menu-icon-wrapper{padding: 0px 9px;}
+/*header section emergency*/
+.header-emergency-item{
+	padding : 36px 0px;
+	cursor: pointer;
+	border-top:3px solid white;
+	border-bottom:3px solid white;
+	
+	
+}
+.header-emergency-item-label{
+	padding : 0px 0px;
+	font-size:18px; 
+	font-weight: 300;
+	letter-spacing: 1.2px;
+	border-right:0px solid rgb(160,160,160);
+}
+
+/*header section search*/
+.header-search-item{
+	padding: 12px;
+	background-image: url(../images/search.png); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: cover
+}
+
+
+
+
+
+

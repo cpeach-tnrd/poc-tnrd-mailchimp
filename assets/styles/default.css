@@ -1,0 +1,14 @@
+/* CSS Document */
+html,body{
+	width:100%;
+	height:100%;
+	margin: 0px;
+	font-size: 0px;
+	text-align: center;	
+	font-family: 'Work Sans', sans-serif;
+	
+}
+div,iframe{box-sizing: border-box;vertical-align: middle;display:inline-block}  
+.vc{height: 100%;}
+
+

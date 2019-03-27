@@ -1,0 +1,41 @@
+.form-wrapper{
+    padding: 24px;
+    
+}
+.form-heading{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(0,0,0,.7);
+    padding: 24px;
+}
+.form-subheading{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(0,0,0,.7);
+    padding: 12px;
+    padding-bottom: 24px;
+}
+.text{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(0,0,0,.7);
+    padding: 18px 24px;
+    width: 250px;
+    text-align: left;
+}
+.text-small{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,.7);
+    padding: 24px;
+    width: 580px;
+    text-align: left;
+}
+.form-checkbox-wrapper{
+    text-align: left;
+    outline: none;
+    width: 330px;
+}
+.form-checkbox{
+    
+}
